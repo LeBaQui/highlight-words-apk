@@ -16,7 +16,7 @@ jobs:
       - name: Unzip và bỏ folder bọc ngoài
         run: |
           set -e
-          ZIP="Apk_appv2-main.zip"
+          ZIP="Apk-appv2-main.zip"
 
           rm -rf /tmp/unz
           mkdir /tmp/unz
